@@ -25,7 +25,7 @@ level = 1
 game_is_on = True
 while game_is_on:
     screen.update()
-    time.sleep(speed/level)
+    time.sleep(0.1)
     snake.move()
     if snake.head.distance(food) < 15:
         food.refresh()
